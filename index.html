@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Daily Report System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Daily Report</h1>
+        </header>
+        
+        <main>
+            <form id="reportForm" class="report-form">
+                <div class="form-group">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" name="studentName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="studentId">Student ID:</label>
+                    <input type="text" id="studentId" name="studentId" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reportDate">Date:</label>
+                    <input type="date" id="reportDate" name="reportDate" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="grade">Grade:</label>
+                    <select id="grade" name="grade" required>
+                        <option value="">Select Grade</option>
+                        <option value="1">Grade 1</option>
+                        <option value="2">Grade 2</option>
+                        <option value="3">Grade 3</option>
+                        <option value="4">Grade 4</option>
+                        <option value="5">Grade 5</option>
+                        <option value="6">Grade 6</option>
+                        <option value="7">Grade 7</option>
+                        <option value="8">Grade 8</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                        <option value="11">Grade 11</option>
+                        <option value="12">Grade 12</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="attendance">Attendance:</label>
+                    <select id="attendance" name="attendance" required>
+                        <option value="">Select Attendance</option>
+                        <option value="present">Present</option>
+                        <option value="absent">Absent</option>
+                        <option value="late">Late</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="homework">Homework Status:</label>
+                    <select id="homework" name="homework" required>
+                        <option value="">Select Status</option>
+                        <option value="completed">Completed</option>
+                        <option value="incomplete">Incomplete</option>
+                        <option value="not_assigned">Not Assigned</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="participation">Class Participation:</label>
+                    <select id="participation" name="participation" required>
+                        <option value="">Rate Participation</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="average">Average</option>
+                        <option value="poor">Poor</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="behavior">Behavior:</label>
+                    <select id="behavior" name="behavior" required>
+                        <option value="">Rate Behavior</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="satisfactory">Satisfactory</option>
+                        <option value="needs_improvement">Needs Improvement</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="notes">Additional Notes:</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Enter any additional observations or comments..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit Report</button>
+                </div>
+            </form>
+            
+            <div id="message" class="message"></div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

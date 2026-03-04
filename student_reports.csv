@@ -1,0 +1,5 @@
+id,student_name,student_id,report_date,grade,subject,attendance,homework,participation,behavior,notes,submitted_at,created_at
+4,appp,1234,2025-09-05,5,AOAOA,late,incomplete,excellent,good,TESET,2025-09-05 10:08:33.699,2025-09-05 18:08:33.722135
+3,TESTING,12234,2025-09-05,3,TEST,present,completed,average,good,GPP,2025-09-05 10:05:30.219,2025-09-05 18:05:30.250843
+1,John Doe,STU001,2025-09-05,5,Mathematics,present,completed,excellent,good,Great participation in class discussions,2025-09-05 10:30:00,2025-09-05 18:00:10.215916
+2,Jane Smith,STU002,2025-09-05,5,English,present,completed,good,excellent,Very well behaved and attentive,2025-09-05 11:00:00,2025-09-05 18:00:10.215916
